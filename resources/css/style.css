@@ -1,0 +1,158 @@
+*{
+	box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+	padding:15px 0px;
+	display: block;
+	height: 125px;
+}
+nav {
+	display:flex;
+	flex-direction:column;
+}
+.site-header{
+	padding: 10px 50px;
+}
+.header-left {
+	float:left;
+	font-size:35px;
+	text-align:left;
+	background-color: #FFF;
+	vertical-align: middle;
+}
+.header-left img{
+	height:50px;
+	vertical-align: middle;
+}
+.site-nav {
+	overflow:hidden;
+	background-color:rgb(60, 163, 211);
+	padding: 0px 50px;
+	position: sticky;
+	top:0;
+}
+.site-nav a {
+	float: left;
+	color: #f2f2f2;
+	text-align:center;
+	padding: 14px 36px;
+	text-decoration:none;
+	font-size:17px;
+}
+.site-nav a:hover {
+	background-color:rgb(150, 200, 240);
+	color: rgb(60, 60, 60);
+}
+.site-nav a.active {
+	background-color: #115683;
+	color: white;
+}
+.site-nav .search-container {
+	float: right;
+}
+.site-nav input[type=text] {
+	margin:0 10px;
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+}
+.site-nav button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.site-nav .search-container button:hover {
+  background: #ccc;
+}
+.top-content {
+	margin:30px 50px 0px;
+	padding: 10px 50px;
+	text-align:center;
+	background-color: cornsilk;
+	color:black;
+}
+.main-content {
+	display: flex;
+	text-align:center;
+	padding : 50px 50px;
+}
+.story-content {
+	background-color: cornsilk;
+	flex:1;
+	margin:0 25px 0 0;
+	padding: 25px 50px;
+}
+.left-content {
+	background-color: cornsilk;
+	width:50%;
+	margin:0 25px 0 0;
+	padding: 25px 50px;
+}
+.tree-content {
+	background-color: cornsilk;
+	width:25%;
+	margin:0 25px 0 0;
+	padding: 25px 50px;
+}
+.right-content {
+	background-color: cornsilk;
+	width:50%;
+	margin:0 25px 0 0;
+	padding: 25px 50px;
+}
+.photo-content {
+	background-color: cornsilk;
+	flex:1;
+	margin: 0 0 0 25px;
+	padding: 25px 50px;
+}
+.article {
+	background-color: #f2f2f2;
+	text-align:left;
+}
+.article h4{
+	font-size: 20px;
+	text-align:center;
+}
+.reg {
+	text-align:center;
+}
+footer {
+	height:150px;
+	text-align:center;
+}
+.asosiasi-placeholder li{
+	display: inline-block;
+}
+.asosiasi-image img{
+	height:100px;
+}
+
+
+
+/*@media screen and (max-width: 600px) {
+	.topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}*/
