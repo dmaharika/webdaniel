@@ -116,6 +116,7 @@ nav {
 	margin: 0 0 0 25px;
 	padding: 25px 50px;
 }
+
 .article {
 	background-color: #f2f2f2;
 	text-align:left;
@@ -137,8 +138,46 @@ footer {
 .asosiasi-image img{
 	height:100px;
 }
-
-
+.photo-slider {
+	padding:0;
+	text-align:center;
+}
+#slider {
+	overflow:hidden;
+	padding:0;
+	margin:0;
+}
+@keyframes slider {
+	0% {left: 0%; }
+	30% {left: 0%; }
+	33% {left: -100%; }
+	63% {left: -100%; }
+	66% {left: -200%; }
+	95% {left: -200%; }
+	100% {left: 0%; }
+}
+#slider figure {
+	margin:0;
+	width:300%;
+	padding:0;
+	position:relative;
+	animation: 9s slider infinite;
+}
+#slider figure:hover{
+	animation-play-state: paused
+}
+#slider figure img{
+	width:33.333333%;
+	height:100%;
+	float:left;
+}
+ul {
+	list-style:none;
+}
+.tree-map {
+	float:inline-start;
+	text-align:left;
+}
 
 /*@media screen and (max-width: 600px) {
 	.topnav .search-container {
